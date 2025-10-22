@@ -9,7 +9,7 @@ const Experience = () => {
       title: 'AI Evaluation Specialist',
       company: 'Outlier AI & Crowdgen',
       location: 'Remote',
-      duration: 'Dec 2024 – Present',
+      duration: 'Dec 2024 – April 2025',
       type: 'Contractor',
       description: 'Supporting machine learning model training through accurate data labeling, annotation, and quality assurance.',
       highlights: [

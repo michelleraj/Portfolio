@@ -12,55 +12,55 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
+      title: 'Look Ecommerce Analysis',
+      description: 'Through advanced SQL analytics, cohort analysis, and customer segmentation for Look E-commerce.',
+      tools: ['SQL', 'Google BigQuery'],
+      category: 'Finance',
+      image: 'https://cdn.pixabay.com/photo/2015/09/21/14/24/supermarket-949913_1280.jpg?auto=format&fit=crop&w=800&h=400',
+      demoLink: 'https://github.com/michelleraj/Look-Ecommerce-Analysis',
+      codeLink: 'https://github.com/michelleraj/Look-Ecommerce-Analysis'
+    },
+    {
+      id: 2,
       title: 'GoDaddy Microbusiness Density',
       description: 'This project exploration data analysis on Godaddy microbusiness density across US countiess',
       tools: ['SQL', 'Windows Function',  'Kaggle'],
       category: 'Finance',
-      image: 'https://cdn.pixabay.com/photo/2017/05/04/16/37/meeting-2284501_1280.jpg?auto=format&fit=crop&w=800&h=400',
+      image: 'https://cdn.pixabay.com/photo/2023/01/22/16/16/statue-of-liberty-7736796_1280.jpg?auto=format&fit=crop&w=800&h=400',
       demoLink: 'https://github.com/michelleraj/GoDaddy-Microbusiness-Density',
       codeLink: 'https://github.com/michelleraj/GoDaddy-Microbusiness-Density/blob/main/Godaddy_Microbusiness.sql'
     },
     {
-      id: 2,
+      id: 3,
       title: 'NYC-CitiBike-Tableau',
       description: 'Analyzed 3+ million rides uncovering the pulse of New York City’s bike culture using Tableau.',
       tools: ['Tableau', 'Python'],
       category: 'Visualization',
-      image: 'https://cdn.pixabay.com/photo/2017/08/17/17/44/the-little-yellow-car-2652215_1280.jpg?auto=format&fit=crop&w=800&h=400',
+      image: 'https://cdn.pixabay.com/photo/2020/12/08/02/35/broadway-5813302_1280.jpg?auto=format&fit=crop&w=800&h=400',
       demoLink: 'https://public.tableau.com/app/profile/michelle.raj/viz/NYCCITITRIP/Dashboard2',
       codeLink: 'https://github.com/michelleraj/NYC-CitiBike-Tableau'
     },
     {
-      id: 3,
+      id: 4,
       title: 'Credit Risk Analysis',
       description: 'Predictive analytics project focused on improving credit risk classification using imbalanced data techniques',
       tools: ['Python','Imbalanced Classification'],
       category: 'Finance',
-      image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800&h=400',
+      image: 'https://cdn.pixabay.com/photo/2019/10/01/14/18/growth-4518406_1280.jpg?auto=format&fit=crop&w=800&h=400',
       demoLink: 'https://github.com/michelleraj/Credit-Risk-Analysis/',
       codeLink: '#'
     },
     {
-      id: 4,
+      id: 5,
       title: 'Heart Disease Prediction',
       description: 'Project aims to predict heart disease using patient health records from the Kaggle Heart Disease dataset.',
       tools: ['Python', 'Kaggle', 'Machine Learning'],
       category: 'Healthcare',
-      image: 'https://cdn.pixabay.com/photo/2018/08/22/19/27/nurse-3624461_1280.jpg?auto=format&fit=crop&w=800&h=400',
+      image: 'https://cdn.pixabay.com/photo/2017/08/07/19/53/heart-2607178_1280.jpg?auto=format&fit=crop&w=800&h=400',
       demoLink: 'https://github.com/michelleraj/Heart-Disease-Prediction',
       codeLink: '#'
     },
-    {
-      id: 5,
-      title: 'School District Analysis',
-      description: 'Python and Pandas is utlilised to analyze educational data from a fictional school district.',
-      tools: ['Python', 'Pandas', 'Plotly'],
-      category: 'Analytics',
-      
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&h=400',
-      demoLink: 'https://github.com/michelleraj/School_District_Analysis',
-      codeLink: '#'
-    },
+  
     {
       id: 6,
       title: 'Belly Biodiversity Visualization',
